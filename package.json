@@ -1,0 +1,14 @@
+{
+  "name": "colortheory",
+  "version": "1.0.0",
+  "description": "Website to make picking styles easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "sakomm",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
