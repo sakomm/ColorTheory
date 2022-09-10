@@ -1,2 +1,5 @@
 Color theory logic 
 https://www.rosetanner.com/single-post/color-theory
+
+Start Document
+https://levelup.gitconnected.com/set-up-and-run-a-simple-node-server-project-38b403a3dc09
