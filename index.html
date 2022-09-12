@@ -1,28 +1,68 @@
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd%22%3E">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd%22%3E">
 
 <html lang="en">
 
-    <head>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <title>Color Theorist</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Color Theorist</title>
+</head>
 
-    <body>
-        <h1>Color Theorist</h1>
-        <p>Color Theorist is a tool for helping you choose what clothes would pair well.</p>
-        <p>It is currently under development.</p>
+<body>
+    <style>
+        @keyframes backgroundColorPalette {
+            0% {
+                background: #ee6055;
+            }
+
+            25% {
+                background: #60d394;
+            }
+
+            50% {
+                background: #aaf683;
+            }
+
+            75% {
+                background: #ffd97d;
+            }
+
+            100% {
+                background: #ff9b85;
+            }
+        }
+
+        body {
+            animation-name: backgroundColorPalette;
+            animation-duration: 7.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        h1{
+            font-family: 'Roboto', monospace;
+            font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
+
+            
+        }
+
+    </style>
+    <h1>Color Theorist</h1>
+    <p>Color Theorist is a tool for helping you choose what clothes would pair well.</p>
+    <p>It is currently under development.</p>
 
 
-        <p>For more information, please visit the <a href="https://www.rosetanner.com/single-post/color-theory">Color theory Website</a>.</p>
+    <p>For more information, please visit the <a href="https://www.rosetanner.com/single-post/color-theory">Color theory
+            Website</a>.</p>
 
-        <!-- Make a selector for the three types of color theory -->
-        <p>Choose a format:</p>
-        <div class="btn-group">
-            <button>Complimentry</button>
-            <button>Rectangle</button>
-            <button>Gradient</button>
-        </div>
-    </body>
+    <!-- Make a selector for the three types of color theory -->
+    <p>Choose a format:</p>
+    <div class="btn-group">
+        <button>Complimentry</button>
+        <button>Rectangle</button>
+        <button>Gradient</button>
+    </div>
+</body>
+
 </html>
